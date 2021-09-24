@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body {
+    background-color: var(--primary-color);
+}
+:root {
+    font-family: 'Dancing Script', cursive;
+    --primary-color: #67E8F9;
+}
+
+.luckybday {
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    text-align: center;
+    width: 30%;
+    display: block;
+    margin: auto;
+	margin-bottom: 1%;
+	position: relative;
+}
+
+.privacy-notice {
+	padding: 0.5rem;
+	width: 100%;
+	border: 0.2rem solid black;
+	margin-bottom: 1rem;
+    font-size: large;
+}
+
+input,
+label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+label {
+    font-size: xx-large;
+}
+
+#check-birthday {
+    padding: 0.5rem;
+    display: block;
+    margin: 2rem auto;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#check-birthday:hover {
+    background-color: black;
+    color: var(--primary-color);
+}
+
+#output-result {
+    font-size: xx-large
+}
