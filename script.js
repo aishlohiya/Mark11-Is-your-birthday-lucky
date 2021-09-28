@@ -20,9 +20,9 @@ function calculateSum(birthDate) {
 
 function finalResult(sum, inputNumber) {
     if (sum%inputNumber===0) {
-        outputBox.innerText ="Your birthday is lucky";
+        outputBox.innerHTML =`<p>Your birthday is lucky</p> <img src="https://c.tenor.com/zC4E1yWaJbwAAAAM/happy-screaming-so-happy-for-you.gif" /> `;
     } else {
-        outputBox.innerText ="Your birthday is not lucky";
+        outputBox.innerHTML = `<p>Your birthday is not lucky </p> <img src="https://acegif.com/wp-content/uploads/gift-54.gif"/>`;
     }
 }
 
